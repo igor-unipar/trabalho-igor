@@ -1,0 +1,23 @@
+/* Responsividade */
+@media (max-width: 800px) {
+  section p {
+    font-size: 1.3rem;
+  }
+
+  section ul {
+    font-size: 1rem;
+  }
+
+  .ficha-tecnica {
+    max-width: 100%;
+  }
+
+  .contador {
+    font-size: 1.5rem;
+    min-width: 140px;
+  }
+
+  .carousel {
+    max-width: 100%;
+  }
+}
