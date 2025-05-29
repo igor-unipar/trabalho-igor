@@ -1,0 +1,61 @@
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#fusca-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgb(10 60 145 / 0.4);
+  object-fit: cover;
+}
+
+/* FICHA TECNICA */
+.ficha-tecnica {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 100%;
+  margin-top: 2em;
+  gap: 0.5rem; /* espaçamento entre os itens */
+  font-size: 13px;
+  padding-left: 0;
+}
+
+.ficha-tecnica li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px;
+  min-width: 140px;
+  background: #e6f0ff;
+  border-left: 6px solid #0a3c91;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 1px 1px 6px rgba(10, 60, 145, 0.15);
+  transition: background-color 0.3s ease;
+  cursor: default;
+}
+
+.ficha-tecnica li:hover {
+  background-color: #c6dbff;
+}
+
+/* CONTADOR */
+.contador {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: #ffd633;
+  padding: 0.6rem 1.6rem;
+  border-radius: 30px;
+  color: #0a3c91;
+  font-family: "Courier New", Courier, monospace;
+  user-select: none;
+  min-width: 170px;
+  max-width: 50vw;
+  text-align: center;
+  box-shadow: 0 3px 10px;
+}

@@ -1,0 +1,66 @@
+/* MAIN */
+main {
+  width: 50vw;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 25px rgb(0 0 0 / 0.08);
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-image: url("../images/fuscafrente.jpg");
+  background-size: 50%;
+  background-position: center;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* SEÇÕES */
+section {
+  margin-bottom: 2.5rem;
+  padding: 0 2rem;
+}
+
+section p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0a3c91;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+section ul {
+  list-style: inside disc;
+  color: #444;
+  line-height: 1.7;
+  font-size: 1.15rem;
+  padding-left: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
